@@ -6,44 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inova Cursos | Área Administrativa</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="topo">
+    
+    <header>
         <a href="index.html">Home</a>
         <a href="conteudos.html">Conteúdos</a>
         <a href="categorias.html">Categorias</a>
         <a href="configuracoes.html">Configurações</a>
-    </div>
-    <div class="menu">
+    </header>
+
+    <nav>
         <a href="dashboard.html">Dashboard</a>
         <a href="cursos.html">Cursos</a>
         <a href="alunos.html">Alunos</a>
         <a href="instrutores.html ">Instrutores</a>
         <a href="financas.html">Financas</a>
-    </div>
-    <div class="geral">
-        <div>Novo curso</div>
-        <div class="topicos">
+    </nav>
+   
+    <div id="geral">
+        <div id="btnNovoCurso">
+            Novo curso
+        </div>
+        
+        <div id="topicos">
             <div>
-                Mais vendidos
-                <img src="img/fogo.png" width="50px" height="50px">
+                 <p>Mais vendidos</p>
+                 <img src="img/fogo.png" class="tpcImg">
+                
             </div>
             <div>
-                Mais acessados
-                <img src="img/senha.png" width="50px" height="50px">
+                <p>Mais acessados</p>
+                <img src="img/senha.png">
             </div>
             <div>
-                Fórum
-                <img src="img/forum.png" width="50px" height="50px">
+                <p>Fórum</p>
+                <img src="img/forum.png">
             </div>
             <div>
-                Cadastros
-                <img src="img/cadastro.png" width="50px" height="50px">
+                <p>Cadastros</p>
+                <img src="img/cadastro.png">
             </div>
         </div>
+
         <table>
-            
             <th><b>Curso</b></th>
             <th><b>Descrição</b></th>
             <th><b>Instrutor</b></th>
@@ -64,6 +74,7 @@
             </tr>
         </table>
     </div>
+
 </body>
 
 </html>

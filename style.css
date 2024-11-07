@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+p, table{
+    font-family: "Montserrat", sans-serif;
+}
+
 table{
     width: 100%;
 }
@@ -23,5 +29,34 @@ tr:nth-child(odd){
 
 tr:hover{
     background-color: lightgray;
+}
+
+#topicos{
+    display: flex;
+    background-color: #dadada54;
+}
+
+#topicos div{
+    border: 1px inset;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 8px;
+    width: 10em;
+    box-shadow:  8px 13px 10px rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    text-shadow: 6px 6px 8px rgba(145, 3, 3, 0.5);
+    font-weight: bold;
+}
+
+#topicos div:hover{
+    background-color:white;
+}
+
+#topicos img{
+    width: 40px; 
+    height: auto;
 }
 
