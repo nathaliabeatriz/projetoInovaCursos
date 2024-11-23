@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+main{    
+    color: white;
+    padding: 15px;
+    background: linear-gradient(45deg, #111010, #111010, #111010, white );
+    display: flex;
+    flex-direction: row;
+    
+}
+
+aside{
+    width: 50%;
+    margin-top: 0;
+}
+
+#subtitulos{
+    margin-top: 100px;
+    
+}
+
+h1{
+    font-size: 55px;
+    font-family: "Montserrat", sans-serif;
+    color: #3d79ef;
+    text-shadow:0 0 0.3em #3d79ef;
+}
+
+.check{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 40px;
+}
+
+#lampada{
+    width: 70px;
+    height: 70px;
+}
+
+#subtitulos h2 {
+    font-family: "Montserrat", sans-serif;
+    margin-left:80px ;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;  
+}
+
+article{
+   position: relative;
+}
+
+#fundo{
+    left: 50px;
+    width: 500px;
+    height: 500px;
+    
+}
+
+#homem{
+    position: absolute;
+}
+
+#aprendaCom{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.topico{
+    border: 1px inset;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 6px;
+    width: 15em;
+    box-shadow:  8px 13px 10px rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(253, 244, 244, 0.479);
+    
+}
+
+.topico img{
+    width: 50px;
+    height: 50px;
+}
+
+.topico p{
+    font-size: 18px;
+}
+
+#subAumente{
+    font-family: "Montserrat", sans-serif; 
+    text-align: center;
+    font-size: 40px;
+    color: #3d79ef;
+}
