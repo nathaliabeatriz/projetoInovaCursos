@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../styles/style-formulario.css">
+</head>
+<body>
+	<aside>
+		<H1> Cadastro</H1>
+		
+		<FORM action="contato.php?fun=cadastrar" method="POST" 
+		enctype="multipart/form-data">
+			
+			<LABEL for="nome"> Nome: </LABEL> 
+			<INPUT type="text" id="nome" name="nome" placeholder="Nome e sobrenome"/> <br />
+			
+			<LABEL for="dataNascimento"> Data de Nascimento: </LABEL> 
+			<INPUT type="text" id="dataNascimento" name="dataNascimento" placeholder="xx/xx/xxxx" /> <br />
+
+			<LABEL for="email"> Email: </LABEL> 
+			<INPUT type="text" id="email" name="email" placeholder="meuemail@email.com" /> <br />
+			
+			<LABEL for="tel"> Telefone: </LABEL> 
+			<INPUT type="text" id="tel" name="telefone" placeholder="(xx)xxxxx-xxxx"/> <br />
+			
+			<INPUT type="submit" name="enviar" value="enviar" />
+			
+					
+		</FORM>
+	</aside>
+
+
+</body>
+</html>
+
+
+
