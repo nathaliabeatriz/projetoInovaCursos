@@ -1,0 +1,67 @@
+
+body{
+    background: #111010;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+article{
+    display: flex;
+}
+
+/*Estilo dos campos do formulário*/
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 45%;
+    background-color: rgb(224, 125, 55);
+    color: black;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 10px;
+    height: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+label{
+    margin-top: 10px;
+}
+
+#botoes{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#botoes input{
+    margin: 0;
+}
+
+#cancelar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 50px;
+    background: red;
+    text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    font-weight: bold;
+}
+/*Fim do estilo dos campos do formulário*/
+

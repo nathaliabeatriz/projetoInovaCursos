@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background: #111010;
+}
+
+p, table{
+    font-family: "Montserrat", sans-serif;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    background-color: lightgray;
+    text-align: center;
+    padding: 8px;
+}
+
+td{
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: white;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(241, 241, 241);
+}
+
+tr:hover{
+    background-color: lightgray;
+}
+
+#topicos{
+    display: flex;
+    background-color: #dadada54;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#topicos div{
+    border: 1px inset;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 8px;
+    width: 10em;
+    box-shadow:  8px 13px 10px rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    text-shadow: 6px 6px 8px rgba(145, 3, 3, 0.5);
+    font-weight: bold;
+    
+}
+
+#topicos div:hover{
+    background-color:white;
+    cursor: pointer;
+}
+
+#topicos img{
+    width: 40px; 
+    height: auto;
+}
+
+.menu{
+    background: #111010;
+    padding: 20px;
+    display: flex;
+}
+
+.menu a, #menu-principal div{
+    text-decoration: none;
+    color: white;
+    font-family: "Inter";
+    font-size: 15px;
+    display: flex;
+}
+
+#menu-principal{
+    justify-content: space-between;
+}
+
+#menu-principal a{
+    padding-right: 25px;
+}
+
+.conteudo{
+    display: flex;
+    height: 100vh;
+}
+
+#menu-sec{
+    flex-direction: column;
+    flex: 10%;
+}
+
+#geral{
+    flex: 90%;
+    border-radius: 10px 10px 0 0;
+    background: white;
+}
+
+.img-menu{
+    width: 15px;
+    height: 15px;
+    padding-right: 5px;
+    align-items: center;
+}
+
+#menu-sec div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+#menu-sec div img{
+    display: flex;
+    width: 20px;
+    margin-left: auto;
+}
+
+#btnNovo{
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 35px;
+    display: flex;
+    padding: 20px;
+    color: black;
+}
+
+#btnNovo img{
+    width: 40px;
+    padding-right: 5px;
+}
+
+btnNovo a:visited{
+    color: black;  
+}
+
+.div-busca{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#campoBuscar{
+    display: flex;
+    align-items: center;
+}
+
+#campoBuscar img{
+    padding: 0 5px 0 5px;
+    width: 20px;
+}
+
+#campoBuscar input{
+    padding: 5px;
+    background: #e8e8e8;
+    border: none;
+    border-radius: 3px;
+}
+
+.sequence-pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.sequence-pages div{
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter";
+}
+
+#pag-atual{
+    background: #3d79ef;
+    color: white;
+}
+
+.sequence-pages img{
+    width: 30px;
+    height: auto;
+}
+
+.sequence-pages div:hover, .sequence-pages img:hover, #btnNovoCurso:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.tabelas{
+    border-collapse: collapse;
+}
+
+.tabelas th, .tabelas td{
+    border: 2px solid #d7d7d7;
+}
+
+#link-cad{
+    text-decoration: none;
+    background: red;
+    border: 1px solid black;
+}
+
+.btnSimNao{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #3d79ef; 
+    color: white; 
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btnSimNao a{
+    text-decoration: none;
+    color: white;
+}
+
+.btnSimNao:hover {
+    background-color: #87c4ec; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    cursor: pointer;
+}
+
+h2{
+    margin: 10px 0 0 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#exibir{
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 0 0 20px;
+}
+
+#exibir ul{
+    margin-left: 20px;
+}
+
+#btn-voltar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+    text-decoration: none;
+    background: rgb(0, 0, 77);
+    color: white;
+}
